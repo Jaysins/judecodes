@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a9e9602-b230-44a2-b934-26d54a4e29fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/documents/JasonCv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Resume/Resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Resume/Resume.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="4a9e9602-b230-44a2-b934-26d54a4e29fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,18 +69,34 @@
       <updated>1552225641874</updated>
       <workItem from="1552225644309" duration="1967000" />
       <workItem from="1552230706165" duration="2726000" />
-      <workItem from="1599323293571" duration="5999000" />
+      <workItem from="1599323293571" duration="6622000" />
     </task>
+    <task id="LOCAL-00001" summary="Revamped">
+      <created>1599330559703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599330559703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revamped" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revamped" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="202" width="664" height="707" key="#ESLint" timestamp="1599323323251">
       <screen x="0" y="34" width="1851" height="1046" />
     </state>
     <state x="588" y="202" width="664" height="707" key="#ESLint/0.34.1851.1046@0.34.1851.1046" timestamp="1599323323251" />
+    <state x="372" y="34" width="1096" height="1046" key="CommitChangelistDialog2" timestamp="1599330559573">
+      <screen x="0" y="34" width="1851" height="1046" />
+    </state>
+    <state x="372" y="34" width="1096" height="1046" key="CommitChangelistDialog2/0.34.1851.1046@0.34.1851.1046" timestamp="1599330559573" />
     <state width="1823" height="242" key="GridCell.Tab.0.bottom" timestamp="1599330142636">
       <screen x="0" y="34" width="1851" height="1046" />
     </state>
@@ -112,6 +113,10 @@
       <screen x="0" y="34" width="1851" height="1046" />
     </state>
     <state width="1823" height="242" key="GridCell.Tab.0.right/0.34.1851.1046@0.34.1851.1046" timestamp="1599330142636" />
+    <state x="420" y="224" width="1000" height="664" key="Vcs.Push.Dialog.v2" timestamp="1599330563002">
+      <screen x="0" y="34" width="1851" height="1046" />
+    </state>
+    <state x="420" y="224" width="1000" height="664" key="Vcs.Push.Dialog.v2/0.34.1851.1046@0.34.1851.1046" timestamp="1599330563002" />
     <state x="100" y="132" width="1651" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599325566098">
       <screen x="0" y="34" width="1851" height="1046" />
     </state>
