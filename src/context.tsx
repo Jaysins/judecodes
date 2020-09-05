@@ -20,7 +20,7 @@ const AppContext = createContext({
         github: 'https://github.com/Jaysins/',
         linkedIn: 'https://www.linkedin.com/in/jaysins/'
     },
-    avatar: './assets/images/avatarJay.jpg',
+    avatar: './assets/images/avatarJay.jpeg',
     cover: './assets/images/profile-bg.jpeg',
     cv: './assets/documents/JasonCv.pdf',
     resume: {
