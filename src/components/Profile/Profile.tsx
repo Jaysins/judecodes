@@ -9,7 +9,6 @@ import AppContext from "../../context";
 
 function Profile() {
     const context = useContext(AppContext);
-
     return (
         <>
             <div className="profile-back" />
@@ -20,8 +19,8 @@ function Profile() {
                 </div>
                 <span className={'name'}>{context.name}</span>
                 <span className={'short'}>
-                    <Typed
-                        strings={context.tags}
+
+                    <Typed strings={context.tags}
                         typeSpeed={20}
                         backSpeed={10}
                         backDelay={5000}
@@ -30,14 +29,14 @@ function Profile() {
                 </span>
                 <div className="social-items">
                     <a target={'_blank'} href={context.social.facebook} className="icon"><FiFacebook /></a>
-                    <a target={'_blank'} href={context.social.twitter} className="icon"><FiTwitter /></a>
-                    <a target={'_blank'} href={context.social.behance} className="icon"><FaBehance /></a>
+                    {/*<a target={'_blank'} href={context.social.twitter} className="icon"><FiTwitter /></a>*/}
+                    {/*<a target={'_blank'} href={context.social.behance} className="icon"><FaBehance /></a>*/}
                     <a target={'_blank'} href={context.social.instagram} className="icon"><FiInstagram /></a>
                     <a target={'_blank'} href={context.social.github} className="icon"><FiGithub /></a>
                     <a target={'_blank'} href={context.social.linkedIn} className="icon"><FiLinkedin /></a>
                 </div>
                 <div className="links">
-                    <a href={context.cv} className="link">Download CV<span className="icon"><FiDownload /></span></a>
+                    <a target={'_blank'} href={context.cv} className="link">Download CV<span className="icon"><FiDownload /></span></a>
                     <Link to={'/contact'} className="link">Contact Me <span
                         className="icon"><FiArrowRight /></span></Link>
                 </div>

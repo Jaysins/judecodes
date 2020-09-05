@@ -4,7 +4,7 @@ import './Nav.scss';
 import { NavLink } from 'react-router-dom'
 
 function Nav() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
 
     useEffect(() => {
         document.documentElement.className = theme;
@@ -21,10 +21,10 @@ function Nav() {
                     <span className="icon"><FiFileText /></span>
                     <span className="label">Resume</span>
                 </NavLink>
-                <NavLink to={'/portfolio'} exact activeClassName={'active'} className="nav-item">
-                    <span className="icon"><FiGrid /></span>
-                    <span className="label">Portfolio</span>
-                </NavLink>
+                {/*<NavLink to={'/portfolio'} exact activeClassName={'active'} className="nav-item">*/}
+                {/*    <span className="icon"><FiGrid /></span>*/}
+                {/*    <span className="label">Portfolio</span>*/}
+                {/*</NavLink>*/}
                 <NavLink to={'/contact'} exact activeClassName={'active'} className="nav-item">
                     <span className="icon"><FiPhone /></span>
                     <span className="label">Contact</span>

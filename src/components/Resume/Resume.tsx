@@ -45,16 +45,16 @@ function Resume() {
                             </div>
                         </section>
                     </div>
-                    <div>
-                        <section className='subsection'>
-                            <h4 className='subsection-title'><span className="icon"><IoIosAnalytics /></span> Design</h4>
-                            <div className="subsection-body">
-                                {
-                                    context.skills.design.map(design => SkillItem(design))
-                                }
-                            </div>
-                        </section>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <section className='subsection'>*/}
+                    {/*        <h4 className='subsection-title'><span className="icon"><IoIosAnalytics /></span> Design</h4>*/}
+                    {/*        <div className="subsection-body">*/}
+                    {/*            {*/}
+                    {/*                context.skills.design.map(design => SkillItem(design))*/}
+                    {/*            }*/}
+                    {/*        </div>*/}
+                    {/*    </section>*/}
+                    {/*</div>*/}
                 </div>
             </section>
         </>

@@ -3,38 +3,45 @@ import React from "react";
 import { FiCode, FiStar } from "react-icons/fi";
 
 const AppContext = createContext({
-    name: 'Francis Jude',
-    dob: '6/17/1996',
+    name: 'Jason Nwakaeze',
+    dob: '1/3/1998',
     address: {
-        town: 'Satellite Town',
+        town: 'Ikeja',
         state: 'Lagos',
         country: 'Nigeria',
     },
-    phone: '+2347066198768',
-    email: 'judecodes@gmail.com',
+    phone: '+2349083551998',
+    email: 'jaysinscars@gmail.com',
     social: {
-        facebook: 'https://www.facebook.com/judecodes',
-        twitter: 'https://www.twitter.com/judecodes',
-        behance: 'https://behance.net/judecodes',
-        instagram: 'https://www.instagram.com/judecodes',
-        github: 'https://www.github.com/jsbuddy',
-        linkedIn: 'https://www.linkedin.com/in/jude-francis-333182109'
+        facebook: 'https://www.facebook.com/jaysins.scars',
+        // twitter: 'https://www.twitter.com/jaysins',
+        // behance: 'https://behance.net/judecodes',
+        instagram: 'https://www.instagram.com/jaysinscars/',
+        github: 'https://github.com/Jaysins/',
+        linkedIn: 'https://www.linkedin.com/in/jaysins/'
     },
     avatar: './assets/images/avatar.jpg',
     cover: './assets/images/profile-bg.jpeg',
-    cv: './assets/documents/resume.pdf',
+    cv: './assets/documents/JasonCv.pdf',
     resume: {
         experience: [
             {
                 present: true,
-                date: '2018 - 2020',
+                date: '2019 - 2020',
                 title: 'Software Developer',
-                subtitle: 'Creditclan Tech Limited',
+                subtitle: 'Sendbox Logistics Service',
                 details: 'Develop and implement new software programs, Maintain and improve the performance of existing software, Recommend improvements to existing software programs as necessary'
             },
             {
                 present: false,
-                date: '2016 - 2018',
+                date: '2018 - 2019',
+                title: 'Junior Web Developer',
+                subtitle: 'GCLHub',
+                details: 'Design, build, and maintain web sites using authoring or scripting languages, content creation tools, management tools, and digital media'
+            },
+            {
+                present: false,
+                date: '2016 - 2017',
                 title: 'Junior Web Designer',
                 subtitle: 'Le Citoyen University',
                 details: 'Design, build, and maintain web sites using authoring or scripting languages, content creation tools, management tools, and digital media'
@@ -42,7 +49,7 @@ const AppContext = createContext({
             {
                 present: false,
                 date: '06.2017 - 10.2017',
-                title: 'Web Designer Intern',
+                title: 'Software Developer Intern',
                 subtitle: 'Trussnet Limited',
                 details: 'Perform or direct web site updates, Back up files from web sites to local directories for instant recovery in case of problems.'
             },
@@ -57,42 +64,33 @@ const AppContext = createContext({
             },
             {
                 present: false,
-                date: '2011 - 2012',
-                title: 'Trinity Computer School',
+                date: '2017',
+                title: 'National Institute of Information Technology (NIIT)',
                 subtitle: 'Lagos, Nigeria',
-                details: 'Diploma in Desktop Publishing'
+                details: 'CERTIFICATE IN EXCEL & TOOLS'
             },
         ]
     },
     skills: {
         code: [
+            { title: 'Python', rate: 90 },
             { title: 'HTML5 / CSS3', rate: 90 },
             { title: 'Javascript', rate: 85 },
-            { title: 'NodeJS / Express', rate: 70 },
-            { title: 'GraphQL', rate: 60 },
-            { title: 'MongoDB', rate: 70 },
-            { title: 'React', rate: 80 },
-            { title: 'Angular', rate: 70 },
-            { title: 'Vue', rate: 60 },
+            { title: 'Git', rate: 80 },
+            { title: 'MongoDB', rate: 80 },
+            { title: 'GraphQL', rate: 70 },
+            { title: 'React', rate: 70 },
+            { title: 'NodeJS / Express', rate: 40 },
             { title: 'React Native', rate: 40 },
-            { title: 'Flutter', rate: 70 },
-            { title: 'Git', rate: 80 }
+            { title: 'Flutter', rate: 40 },
         ],
-        design: [
-            { title: 'Figma', rate: 70 },
-            { title: 'Adobe XD', rate: 50 },
-            { title: 'Adobe Illustrator', rate: 50 },
-            { title: 'Adobe Photoshop', rate: 40 },
-            { title: 'CorelDraw', rate: 70 },
-        ]
     },
     tags: [
-        'Full-Stack Developer',
-        'UI / UX Designer',
-        'Graphic Designer',
+        'Software Developer',
+        'Backend Developer',
         'Cross-Platform Developer',
     ],
-    about: `A full-stack developer and graphic designer from Lagos, Nigeria. I enjoy building everything from small sites to rich interactive cross platform mobile/web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me.`,
+    about: `A backend developer from Lagos, Nigeria. I enjoy building everything from small sites to rich interactive cross platform mobile/web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me.`,
     services: [
         {
             title: 'Web Development',
@@ -100,8 +98,13 @@ const AppContext = createContext({
             icon: <FiCode />,
         },
         {
-            title: 'Graphic Design',
-            description: `From simple flyers, banners to complicated Illustrations for your projects`,
+            title: 'Web Scraping Applications',
+            description: `Pulling large amount of data from websites which can then be helpful in various real-world processes such as price comparison, job listings, research and development and much more. `,
+            icon: <FiStar />,
+        },
+        {
+            title: 'Business Application',
+            description: `From ERP to e-commerce systems`,
             icon: <FiStar />,
         }
     ],
